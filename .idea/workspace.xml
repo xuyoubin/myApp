@@ -9,7 +9,7 @@
     <bookmark url="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/ldgl.jsp" line="60" mnemonic="9" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68dcd850-5e64-4be1-95df-44cfb36fdad9" name="Default" comment="添加配置文件">
+    <list default="true" id="68dcd850-5e64-4be1-95df-44cfb36fdad9" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -104,12 +104,54 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-198">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+              <folding>
+                <marker date="1555320253865" expanded="true" signature="100974:100993" ph="..." />
+                <marker date="1555320253865" expanded="true" signature="100974:101011" ph="..." />
+                <marker date="1555320253865" expanded="true" signature="100974:101024" ph="..." />
+                <marker date="1555320253865" expanded="true" signature="100974:101039" ph="..." />
+                <marker date="1555320253865" expanded="true" signature="101074:103695" ph="..." />
+                <marker date="1555320253865" expanded="true" signature="101087:103680" ph="..." />
+                <marker date="1555320253865" expanded="true" signature="101141:101528" ph="..." />
+                <marker date="1555320253865" expanded="true" signature="101160:101513" ph="..." />
+                <marker date="1555320253865" expanded="true" signature="101270:101493" ph="..." />
+                <marker date="1555320253865" expanded="true" signature="101310:101459" ph="..." />
+                <marker date="1555320253865" expanded="true" signature="101331:101437" ph="..." />
+                <marker date="1555320253865" expanded="true" signature="101578:101893" ph="..." />
+                <marker date="1555320253865" expanded="true" signature="101597:101878" ph="..." />
+                <marker date="1555320253865" expanded="true" signature="101674:101858" ph="..." />
+                <marker date="1555320253865" expanded="true" signature="101714:101824" ph="..." />
+                <marker date="1555320253865" expanded="true" signature="101735:101802" ph="..." />
+                <marker date="1555320253865" expanded="true" signature="101944:102215" ph="..." />
+                <marker date="1555320253865" expanded="true" signature="101963:102200" ph="..." />
+                <marker date="1555320253865" expanded="true" signature="101996:102180" ph="..." />
+                <marker date="1555320253865" expanded="true" signature="102036:102146" ph="..." />
+                <marker date="1555320253865" expanded="true" signature="102057:102124" ph="..." />
+                <marker date="1555320253865" expanded="true" signature="102258:102570" ph="..." />
+                <marker date="1555320253865" expanded="true" signature="102277:102555" ph="..." />
+                <marker date="1555320253865" expanded="true" signature="102351:102535" ph="..." />
+                <marker date="1555320253865" expanded="true" signature="102391:102501" ph="..." />
+                <marker date="1555320253865" expanded="true" signature="102412:102479" ph="..." />
+                <marker date="1555320253865" expanded="true" signature="102621:102942" ph="..." />
+                <marker date="1555320253865" expanded="true" signature="102640:102927" ph="..." />
+                <marker date="1555320253865" expanded="true" signature="102723:102907" ph="..." />
+                <marker date="1555320253865" expanded="true" signature="102763:102873" ph="..." />
+                <marker date="1555320253865" expanded="true" signature="102784:102851" ph="..." />
+                <marker date="1555320253865" expanded="true" signature="102977:103283" ph="..." />
+                <marker date="1555320253865" expanded="true" signature="102996:103268" ph="..." />
+                <marker date="1555320253865" expanded="true" signature="103070:103248" ph="..." />
+                <marker date="1555320253865" expanded="true" signature="103110:103214" ph="..." />
+                <marker date="1555320253865" expanded="true" signature="103131:103192" ph="..." />
+                <marker date="1555320253865" expanded="true" signature="103335:103666" ph="..." />
+                <marker date="1555320253865" expanded="true" signature="103354:103651" ph="..." />
+                <marker date="1555320253865" expanded="true" signature="103447:103631" ph="..." />
+                <marker date="1555320253865" expanded="true" signature="103487:103597" ph="..." />
+                <marker date="1555320253865" expanded="true" signature="103508:103575" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -122,11 +164,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CookieUtil.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/utils/CookieUtil.java">
+      <file leaf-file-name="roadsys.sql" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/MySQL/roadsys.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="17" column="46" lean-forward="false" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="46" />
+            <state relative-caret-position="-726">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -376,20 +418,20 @@
     <property name="SearchEverywhereHistoryKey" value="JdbcTe&#9;PSI&#9;JAVA://org.springframework.jdbc.core.JdbcTemplate" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="H:\myApp\src\main\webapp\css" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="H:\myApp\MySQL" />
+      <recent name="H:\myApp\src\main\resources" />
+      <recent name="H:\myApp\src\main\java\test\TestService" />
+      <recent name="H:\myApp\src\main\webapp\WEB-INF\jsp\admin" />
+      <recent name="H:\myApp\src\main\webapp" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="test.TestDao" />
       <recent name="com.dao" />
       <recent name="com.entity" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="H:\myApp\src\main\resources" />
-      <recent name="H:\myApp\src\main\java\test\TestService" />
-      <recent name="H:\myApp\src\main\webapp\WEB-INF\jsp\admin" />
-      <recent name="H:\myApp\src\main\webapp" />
-      <recent name="H:\myApp\src\main\webapp\js" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="H:\myApp\src\main\webapp\css" />
     </key>
   </component>
   <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
@@ -960,7 +1002,7 @@
       <workItem from="1554686196657" duration="5675000" />
       <workItem from="1554974409776" duration="2887000" />
       <workItem from="1555293970689" duration="3325000" />
-      <workItem from="1555315251753" duration="2229000" />
+      <workItem from="1555315251753" duration="2463000" />
     </task>
     <task id="LOCAL-00001" summary="添加配置文件">
       <created>1555319513263</created>
@@ -969,7 +1011,21 @@
       <option name="project" value="LOCAL" />
       <updated>1555319513263</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="添加配置文件">
+      <created>1555320117438</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1555320117438</updated>
+    </task>
+    <task id="LOCAL-00003" summary="数据库文件">
+      <created>1555320245357</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1555320245357</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1005,7 +1061,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="484632000" />
+    <option name="totallyTimeSpent" value="484866000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1131,7 +1187,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="添加配置文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加配置文件" />
+    <MESSAGE value="数据库文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="数据库文件" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1163,13 +1220,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/test/JuntText.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="814">
-          <caret line="274" column="5" lean-forward="true" selection-start-line="266" selection-start-column="3" selection-end-line="274" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/test/ProducerConsumer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="924">
@@ -1537,7 +1587,49 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-198">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1555320253865" expanded="true" signature="100974:100993" ph="..." />
+            <marker date="1555320253865" expanded="true" signature="100974:101011" ph="..." />
+            <marker date="1555320253865" expanded="true" signature="100974:101024" ph="..." />
+            <marker date="1555320253865" expanded="true" signature="100974:101039" ph="..." />
+            <marker date="1555320253865" expanded="true" signature="101074:103695" ph="..." />
+            <marker date="1555320253865" expanded="true" signature="101087:103680" ph="..." />
+            <marker date="1555320253865" expanded="true" signature="101141:101528" ph="..." />
+            <marker date="1555320253865" expanded="true" signature="101160:101513" ph="..." />
+            <marker date="1555320253865" expanded="true" signature="101270:101493" ph="..." />
+            <marker date="1555320253865" expanded="true" signature="101310:101459" ph="..." />
+            <marker date="1555320253865" expanded="true" signature="101331:101437" ph="..." />
+            <marker date="1555320253865" expanded="true" signature="101578:101893" ph="..." />
+            <marker date="1555320253865" expanded="true" signature="101597:101878" ph="..." />
+            <marker date="1555320253865" expanded="true" signature="101674:101858" ph="..." />
+            <marker date="1555320253865" expanded="true" signature="101714:101824" ph="..." />
+            <marker date="1555320253865" expanded="true" signature="101735:101802" ph="..." />
+            <marker date="1555320253865" expanded="true" signature="101944:102215" ph="..." />
+            <marker date="1555320253865" expanded="true" signature="101963:102200" ph="..." />
+            <marker date="1555320253865" expanded="true" signature="101996:102180" ph="..." />
+            <marker date="1555320253865" expanded="true" signature="102036:102146" ph="..." />
+            <marker date="1555320253865" expanded="true" signature="102057:102124" ph="..." />
+            <marker date="1555320253865" expanded="true" signature="102258:102570" ph="..." />
+            <marker date="1555320253865" expanded="true" signature="102277:102555" ph="..." />
+            <marker date="1555320253865" expanded="true" signature="102351:102535" ph="..." />
+            <marker date="1555320253865" expanded="true" signature="102391:102501" ph="..." />
+            <marker date="1555320253865" expanded="true" signature="102412:102479" ph="..." />
+            <marker date="1555320253865" expanded="true" signature="102621:102942" ph="..." />
+            <marker date="1555320253865" expanded="true" signature="102640:102927" ph="..." />
+            <marker date="1555320253865" expanded="true" signature="102723:102907" ph="..." />
+            <marker date="1555320253865" expanded="true" signature="102763:102873" ph="..." />
+            <marker date="1555320253865" expanded="true" signature="102784:102851" ph="..." />
+            <marker date="1555320253865" expanded="true" signature="102977:103283" ph="..." />
+            <marker date="1555320253865" expanded="true" signature="102996:103268" ph="..." />
+            <marker date="1555320253865" expanded="true" signature="103070:103248" ph="..." />
+            <marker date="1555320253865" expanded="true" signature="103110:103214" ph="..." />
+            <marker date="1555320253865" expanded="true" signature="103131:103192" ph="..." />
+            <marker date="1555320253865" expanded="true" signature="103335:103666" ph="..." />
+            <marker date="1555320253865" expanded="true" signature="103354:103651" ph="..." />
+            <marker date="1555320253865" expanded="true" signature="103447:103631" ph="..." />
+            <marker date="1555320253865" expanded="true" signature="103487:103597" ph="..." />
+            <marker date="1555320253865" expanded="true" signature="103508:103575" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1549,6 +1641,14 @@
             <folding />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MySQL/roadsys.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-726">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
