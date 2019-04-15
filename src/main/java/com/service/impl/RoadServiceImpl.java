@@ -27,7 +27,6 @@ public class RoadServiceImpl implements RoadService {
         PageBean pg = new PageBean(pageIndex,pageNumber,count);
         int startIndex = pg.getStartIndex();
         List list = roadDao.findAll(startIndex,pageNumber);
-
         pg.setList(list);
         return pg;
     }
@@ -40,7 +39,7 @@ public class RoadServiceImpl implements RoadService {
        for(int i=0;i<array.length;i++){
            if(2==i){
                int sun = i/0;
-               log.info("删除异常");
+               log.info("发现异常");
 //               throw new RuntimeException("发现异常");
                roadDao.delete(Integer.valueOf(array[i]));
            }else{

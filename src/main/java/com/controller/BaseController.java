@@ -8,7 +8,10 @@ import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
 import com.alibaba.fastjson.serializer.SerializerFeature;
 import  static com.utils.HttpContextUtil.getResponse;
-
+/**
+ * @Date 17:47 2019/4/15
+ * @Remark  controller基类
+ **/
 public class BaseController {
 	private static final Logger log = Logger.getLogger(BaseController.class);
 	
@@ -26,13 +29,13 @@ public class BaseController {
 		}
 		
 	}
-	
-	
+
 	public String jsonSuccess(JSONObject json){
 		json.put("success", true);
 		printJSON(getResponse(),json);
 		return null;
 	}
+
 	public String jsonFail(String msg){
 		JSONObject obj = new JSONObject(2);
 		obj.put("success", false);

@@ -10,17 +10,17 @@ import org.apache.log4j.Logger;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
-
 import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
-
 import java.util.Date;
 import java.util.List;
-
 import static com.utils.HttpContextUtil.getRequset;
-
+/**
+ * @Date 18:24 2019/4/15
+ * @Remark 路灯控制类
+ **/
 @Controller
 @RequestMapping("/road")
 public class RoadController extends BaseController {
@@ -55,7 +55,6 @@ public class RoadController extends BaseController {
         roadService.delete(parms);
         return jsonSuccess(result);
     }
-
     /**
      * 路灯控制-正常路灯列表获取
      * @returnlist
@@ -74,7 +73,6 @@ public class RoadController extends BaseController {
     @RequestMapping(value = "time.do")
     public String setTime(HttpServletRequest request, HttpServletResponse response){
         String pageIndex = request.getParameter("pageIndex");
-//        List<Road>
         PageBean pg = roadService.findNormal(NUMBER_ZERO,Integer.valueOf(pageIndex),PAGE_NUMBER);
         request.setAttribute("pg",pg);
         return "admin/clsz";
@@ -234,6 +232,5 @@ public class RoadController extends BaseController {
         roadService.add(road);
         return jsonSuccess(result);
     }
-
 
 }

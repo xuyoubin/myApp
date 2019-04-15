@@ -113,6 +113,7 @@
 		<location>/jsp/tips/404.jsp</location>
 	</error-page>
 
+	<!--启动kafka配置-->
 	<!--ContextLoaderListener监听器应该放在 kafka监听器之前加载，因为kafka后续会用到ServletContextEvent加载dao类
 	kafka监听器启动的时候，spring还没加载，所不能用注解的方式获取类，只能通过servletContextEvent 进行类的初始化
 	-->

@@ -4,7 +4,6 @@ import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
-
 import com.utils.BeanAndString;
 import com.utils.Redis.RedisDao;
 import com.utils.SessionUtil;
@@ -16,21 +15,12 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import static com.utils.HttpContextUtil.getRequset;
-import static com.utils.HttpContextUtil.getResponse;
-
 import com.alibaba.fastjson.JSONObject;
 import com.entity.User;
 import com.service.UserService;
-import org.springframework.web.servlet.ModelAndView;
-
-import java.io.IOException;
-import java.io.OutputStream;
-import java.io.UnsupportedEncodingException;
-import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
-
 
 @Controller
 @RequestMapping("/user")
@@ -102,11 +92,10 @@ public class UserController extends BaseController {
 	public String loginOut(){
 //		SessionUtil.loginoutUser(getRequset().getSession());
 //		getResponse().setHeader("Location","");
-		//redirect 转发 返回ModelAndView
+//		redirect 转发 返回ModelAndView
 //		return new ModelAndView("redirect:/list.do");
-		//redirect 转发 返回String
+//		redirect 转发 返回String
 //		return "redirect:/list.do";
-
 		return "admin/login";
 	}
 
@@ -150,10 +139,6 @@ public class UserController extends BaseController {
 		String topic = ReadKafkaPropertiesUtils.getTopic();
 		String key = "userkey";
 		KafkaProduce.sendMsg(topic,key,userStr);
-
-
-
-
 		return jsonSuccess(json);
 	}
 
@@ -224,7 +209,7 @@ public class UserController extends BaseController {
 	/*
 	*
 	 */
-	public void downloadFile(){
-			log.info("---------------定时任务---------------");
-	}
+//	public void downloadFile(){
+//			log.info("---------------定时任务---------------");
+//	}
 }

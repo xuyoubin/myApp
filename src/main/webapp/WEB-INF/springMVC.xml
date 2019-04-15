@@ -31,10 +31,6 @@
 	<!-- 通知spring使用cglib而不是jdk的来生成代理方法，这样 AOP可以拦截到Controller -->
 	<aop:aspectj-autoproxy proxy-target-class="true" />
 
-
-
-
-
     <!-- 视图解释类 -->
 	<bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">  
 		<property name="prefix" value="/WEB-INF/jsp/" />

@@ -20,7 +20,7 @@
 			http://www.springframework.org/schema/task
 			http://www.springframework.org/schema/task/spring-task-3.0.xsd
 ">
-
+    <!--测试用-->
     <!--<context:property-placeholder location="classpath*:jdbc.properties"/>-->
     <context:component-scan base-package="test" />
 
