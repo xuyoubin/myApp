@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:task="http://www.springframework.org/schema/task"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/task http://www.springframework.org/schema/task/spring-task.xsd">
+
+   <!--定时器任务配置-->
+    <!--<task:scheduled-tasks>-->
+        <!--&lt;!&ndash;每隔30秒 调一次&ndash;&gt;-->
+        <!--<task:scheduled ref="userController" method="downloadFile" cron="30 * * * * ?"/>-->
+    <!--</task:scheduled-tasks>-->
+</beans>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--<script src="js/jquery.js"></script>-->
+    <!--<script src="js/jquery-1.9.1.min.js"></script>-->
+    <script src="bootstrap2.3.2/js/bootstrap.min.js"></script>
+    <link href="bootstrap2.3.2/css/bootstrap.min.css" rel="stylesheet" />
+    <title>Title</title>
+</head>
+<body>
+<div class="form-group" ng-class="{ 'has-error': editForm.startTime.$invalid && editForm.startTime.$dirty }">
+    <label class="col-md-4 control-label"><font color="red">*</font> 开始时间：</label>
+    <div class='col-md-8'>
+        <input type='text' name="startTime"  class="form-control" ng-model="model.StartTime" timepicker/>
+    </div>
+</div>
+</body>
+</html>

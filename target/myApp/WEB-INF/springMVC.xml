@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	   xmlns:aop="http://www.springframework.org/schema/aop"
+	   xmlns:context="http://www.springframework.org/schema/context"
+	   xmlns:mvc="http://www.springframework.org/schema/mvc"
+	   xmlns:tx="http://www.springframework.org/schema/tx"
+	   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	   xmlns:task="http://www.springframework.org/schema/task"
+	   xsi:schemaLocation="
+			http://www.springframework.org/schema/aop
+			http://www.springframework.org/schema/aop/spring-aop-3.0.xsd
+			http://www.springframework.org/schema/beans
+			http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+			http://www.springframework.org/schema/context
+			http://www.springframework.org/schema/context/spring-context-3.0.xsd
+			http://www.springframework.org/schema/mvc
+			http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd
+			http://www.springframework.org/schema/tx
+			http://www.springframework.org/schema/tx/spring-tx-3.0.xsd
+			http://www.springframework.org/schema/task
+			http://www.springframework.org/schema/task/spring-task-3.0.xsd
+">
+
+	<!-- 默认的注解映射的支持 -->
+	<mvc:annotation-driven />
+	<!--&lt;!&ndash; 自动扫描的包名，对定义包中的所有类进行扫描  完成bean创建和自动依赖注入的功能 &ndash;&gt;-->
+	<context:component-scan base-package="com" />
+	 <!-- 定义事务管理器（声明式的事务） -->
+	<!-- 使用annotation定义事务  -->
+	<tx:annotation-driven transaction-manager="transactionManager"/>
+	<!-- 通知spring使用cglib而不是jdk的来生成代理方法，这样 AOP可以拦截到Controller -->
+	<aop:aspectj-autoproxy proxy-target-class="true" />
+
+
+
+
+
+    <!-- 视图解释类 -->
+	<bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">  
+		<property name="prefix" value="/WEB-INF/jsp/" />
+		<property name="suffix" value=".jsp" />  <!--可为空,方便实现自已的依据扩展名来选择视图解释类的逻辑 -->
+	</bean> 
+	<!--静态资源配置-->
+	<!--<mvc:resources mapping="/css/**" location="/static_resource/css/"/>-->
+	
+	<!--拦截器配置  -->
+	<mvc:interceptors>
+		<mvc:interceptor>
+			<mvc:mapping path="/**"/>   <!--拦截所有请求  -->
+			<bean class="com.utils.HttpContextInterceptor"></bean>
+		</mvc:interceptor>
+	</mvc:interceptors>
+	<!--导入定时器-->
+	<import resource="classpath*:tasksConfig.xml"/>
+</beans>  
